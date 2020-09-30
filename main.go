@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
-func main()  {
-	fmt.Println("Hola Mundo!") // eliminar esta línea
+func main() {
+	var side uint64
+	fmt.Scanln(&side)
+	area := side * side
+	fmt.Println(area)
 }
